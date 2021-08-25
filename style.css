@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+img {
+    width: inherit;
+    min-height: 100%;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+body {
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    color: blueviolet;
+}
+
+.borderless td,
+.borderless th {
+    /* remove default cell border */
+    border: none;
+}
+
+.checked {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.unchecked {
+    font-size: 20px;
+    color: violet;
+}
