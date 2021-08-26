@@ -1,7 +1,7 @@
 document.querySelector('main').innerHTML = `<div class="container">
 <h1 class='text-center'> Get Cat Details</h1>
 <div class="row">
-    <div class="col-md-4 col-sm-12 pb-3">
+    <div class="col-md-4 col-lg m-5 col-sm-12 pb-3">
         <form>
             <div class="form-group">
                 <label for="cat_breed">Select Cat Breed</label>
@@ -75,28 +75,28 @@ document.querySelector('main').innerHTML = `<div class="container">
                     <option value="York Chocolate">York Chocolate</option>
                 </select>
             </div>
-            <button class="btn btn-warning btn-block" id="mybutton">Go</button>
+            <button class="btn btn-danger btn-lg btn-block" id="mybutton">Go</button>
             
         </form>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-7 col-sm-12">
-        <div class="row shadow p-3 mb-5 bg-white rounded rounded-lg ">
+<div class="row m-5">
+    <div class="col-lg-12 col-md-7 col-sm-12">
+        <div class="row shadow-sm p-3 mb-5 bg-white rounded rounded-lg ">
             <div class="col-md-6 col-sm-12 p-0">
                 <img class="img-responsive" src="https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg" alt ="Abyssinian" id="cat_img">
             </div>
             <div class="col-md-6 col-sm-12 p-0 bg-white text-dark p-5 ">
-                <p class="text-center display-5 font-weight-bold" id="cat_name">Abyssinian</p>
+                <h1 class="text-center m-3 display-5 font-weight-bold" id="cat_name">Abyssinian</h1>
                 <p class="text-center font-weight-bold" id="cat_id">Id : abys</p>
-                <p id="definition">The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.</p>
+                <p class="text-secondary" id="definition">The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.</p>
                 <p class="text-center"> --- </p>
-                <p class="text-center" id="behaviour">Active, Energetic, Independent, Intelligent, Gentle</p>
-                <p class="text-center" id="country">United States</p>
+                <p class="text-center text-secondary" id="behaviour">Active, Energetic, Independent, Intelligent, Gentle</p>
+                <p class="text-center text-secondary" id="country">United States</p>
             </div>
         </div>
     </div>
-    <div class="col-md-5 col-sm-12">
+    <div class="col-lg-12 col-md-5 col-sm-12">
         <table class='table borderless'>
             <tbody>
                 <tr>

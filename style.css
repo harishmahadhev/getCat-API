@@ -17,8 +17,8 @@ h1 {
 body {
     padding: 30px;
     margin-bottom: 10px;
-    background-color: whitesmoke;
-    color: blueviolet;
+    background-color: rgb(255, 246, 246);
+    color: rgb(226, 43, 104);
 }
 
 .borderless td,
@@ -28,11 +28,11 @@ body {
 }
 
 .checked {
-    color: blueviolet;
+    color: rgb(226, 43, 104);
     font-size: 20px;
 }
 
 .unchecked {
     font-size: 20px;
-    color: violet;
+    color: rgb(226, 43, 104);
 }
